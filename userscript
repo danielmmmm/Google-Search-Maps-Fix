@@ -18,7 +18,7 @@
 
     function addMapsLink() {
         // Find the existing results tabs (Images, News, etc.)
-        const tabsContainer = document.querySelector('.IUOThf');
+        const tabsContainer = document.querySelector('.crJ18e');    //IUOThf
         const mapImage = document.querySelector('#lu_map');
 
         // Get the search query from the URL
@@ -44,7 +44,7 @@
             // Create the inner elements for the Maps button
             const mapDiv = document.createElement('div');
             mapDiv.jsname = 'bVqjv';
-            mapDiv.classList.add('GKS7s');
+            mapDiv.classList.add('YmvwI');    //GKS7s
 
             const mapSpan = document.createElement('span');
             mapSpan.classList.add('FMKtTb', 'UqcIvb');
