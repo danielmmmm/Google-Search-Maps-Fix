@@ -18,7 +18,8 @@
 
     function addMapsLink() {
         // Find the existing results tabs (Images, News, etc.)
-        const tabsContainer = document.querySelector('.crJ18e');    //IUOThf
+        const linksContainer = document.querySelector('.crJ18e');
+        const tabsContainer = document.querySelector('.IUOThf');
         const mapImage = document.querySelector('#lu_map');
 
         // Get the search query from the URL
@@ -35,35 +36,59 @@
             anchorElement.appendChild(mapImage);
         }
 
+        // If links exist, proceed
+        if (linksContainer) {
+            // Create the Maps button
+            const mapsButtonL = document.createElement('a');
+            mapsButtonL.classList.add('nPDzT', 'T3FoJb');  // Style to match other tabs
+
+            // Create the inner elements for the Maps button
+            const mapDivL = document.createElement('div');
+            mapDivL.jsname = 'bVqjv';
+            mapDivL.classList.add('YmvwI');    //GKS7s
+
+            const mapSpanL = document.createElement('span');
+            mapSpanL.classList.add('FMKtTb', 'UqcIvb');
+            mapSpanL.jsname = 'pIvPIe';
+            mapSpanL.textContent = 'Maps';
+
+            // Assemble the elements
+            mapDivL.appendChild(mapSpanL);
+            mapsButtonL.appendChild(mapDivL);
+            mapsButtonL.href = mapsLink;
+
+            // Insert the Maps button at the beginning of the tabs container
+            linksContainer.prepend(mapsButtonL);
+        }
+
         // If tabs exist, proceed
         if (tabsContainer) {
             // Create the Maps button
-            const mapsButton = document.createElement('a');
-            mapsButton.classList.add('nPDzT', 'T3FoJb');  // Style to match other tabs
+            const mapsButtonT = document.createElement('a');
+            mapsButtonT.classList.add('nPDzT', 'T3FoJb');  // Style to match other tabs
 
             // Create the inner elements for the Maps button
-            const mapDiv = document.createElement('div');
-            mapDiv.jsname = 'bVqjv';
-            mapDiv.classList.add('YmvwI');    //GKS7s
+            const mapDivT = document.createElement('div');
+            mapDivT.jsname = 'bVqjv';
+            mapDivT.classList.add('GKS7s');
 
-            const mapSpan = document.createElement('span');
-            mapSpan.classList.add('FMKtTb', 'UqcIvb');
-            mapSpan.jsname = 'pIvPIe';
-            mapSpan.textContent = 'Maps';
+            const mapSpanT = document.createElement('span');
+            mapSpanT.classList.add('FMKtTb', 'UqcIvb');
+            mapSpanT.jsname = 'pIvPIe';
+            mapSpanT.textContent = 'Maps';
 
             // Assemble the elements
-            mapDiv.appendChild(mapSpan);
-            mapsButton.appendChild(mapDiv);
-            mapsButton.href = mapsLink;
+            mapDivT.appendChild(mapSpanT);
+            mapsButtonT.appendChild(mapDivT);
+            mapsButtonT.href = mapsLink;
 
             // Insert the Maps button at the beginning of the tabs container
-            tabsContainer.prepend(mapsButton);
+            tabsContainer.prepend(mapsButtonT);
         }
 
     }
 
     // Call the function to add the button
     addMapsLink();
-
 
 })();
