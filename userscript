@@ -1,16 +1,16 @@
 // ==UserScript==
 // @name         Google Search Maps Buttons
 // @description  Adds maps buttons to Google Search and filters out -site:pinterest.* (modified from Daan Grashoff / Delivator)
-// @version      0.1
+// @version      0.1.1
 // @author       mseitz
-// @namespace    https://github.com/danielmmmm/Google-Search-Maps-Fix
+// @namespace    https://greasyfork.org/en/scripts/490916-google-search-maps-buttons
 // @include      https://www.google.tld/search*
 // @icon         https://www.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png
 // @grant        none
 // @license      CC-BY-NC-SA-4.0; https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
-// @homepageURL  https://github.com/test/Google-Search-Maps-Fix
-// @downloadURL https://github.com/test/Google-Search-Maps-Fix/userscript
-// @updateURL https://github.com/test/Google-Search-Maps-Fix/userscript
+// @homepageURL  https://greasyfork.org/en/scripts/490916-google-search-maps-buttons
+// @downloadURL  https://update.greasyfork.org/scripts/490916/Google%20Search%20Maps%20Buttons.user.js
+// @updateURL    https://update.greasyfork.org/scripts/490916/Google%20Search%20Maps%20Buttons.user.js
 // ==/UserScript==
 
 
