@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Google Search Maps Buttons
-// @description  Ads maps buttons to Google Search and filters out -site:pinterest.* (modified from Daan Grashoff / Delivator)
+// @description  Adds maps buttons to Google Search and filters out -site:pinterest.* (modified from Daan Grashoff / Delivator)
 // @version      0.1
 // @author       mseitz
 // @namespace    https://github.com/danielmmmm/Google-Search-Maps-Fix
